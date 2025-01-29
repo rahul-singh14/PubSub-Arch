@@ -1,0 +1,21 @@
+{
+    "name": "receiver-service",
+    "version": "1.0.0",
+    "description": "Receiver Service for PubSub architecture using AWS SQS",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "body-parser": "^1.20.2",
+      "mongoose": "^8.0.3",
+      "uuid": "^9.0.0",
+      "@aws-sdk/client-sqs": "^3.391.0",
+      "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.2"
+    }
+  }
